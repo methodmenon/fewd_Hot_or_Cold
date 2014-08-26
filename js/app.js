@@ -29,7 +29,7 @@ $(document).ready(function() {
 			num_guess++;
 			hotOrCold(user_guess);
 			$("#count").html(num_guess);
-			$("#guessList").append("<li>" + user_guess + "<li>");
+			$("#guessList").append("<li>" + user_guess + "</li>");
 		}
 		else
 		{
